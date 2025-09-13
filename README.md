@@ -35,6 +35,7 @@ A simple Java **console-based railway booking system** that simulates IRCTC feat
 ---
 
 📸 Demo (Console Output):
+```
 ------ Welcome to IRCTC APP ------
 1. Register
 2. Login
@@ -72,6 +73,34 @@ Welcome : yash!
 
 ---------------------
 
+Booking Successful!
+ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
+
+---------------------
+
+If the user books another ticket:
+Booking Successful!
+ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
+
+---------------------
+
+And when the user chooses View My Tickets, the console shows all booked tickets:
+Your Tickets
+ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
+ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
+
+---------------------
+
+Your Tickets
+ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
+ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
+
+----------------------
+
+When a ticket is canceled, for example ticketId: 2:
+Ticket canceled successfully: ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
+
+```
 🚀 Future Improvements:
 
 - Add Database support (MySQL/PostgreSQL)
