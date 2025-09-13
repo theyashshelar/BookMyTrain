@@ -65,15 +65,15 @@ Welcome : yash!
 5. View All Trains
 6. Logout
 
-  Booking Successful!
+- Booking Successful!
 - ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
 
 - If the user books another ticket:
-  Booking Successful!
+- Booking Successful!
 - ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
 - And when the user chooses View My Tickets, the console shows all booked tickets:
-  Your Tickets:
+- Your Tickets:
 = ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
 = ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
