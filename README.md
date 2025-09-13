@@ -26,16 +26,15 @@ A **Java console-based railway booking system** simulating IRCTC features like u
 ## 📂 Project Structure
 BookMyTrain/
 ├── src/
-│ ├── IRCTCAPP.java # Main application (entry point)
-│ ├── User.java # User entity
-│ ├── Train.java # Train entity
-│ ├── Ticket.java # Ticket entity
-│ ├── UserService.java # Handles user registration & login
-│ ├── BookingService.java # Handles booking, search & cancellations
-│ └── (other helper classes)
+│   ├── IRCTCAPP.java         # Main application (entry point)
+│   ├── User.java             # User entity
+│   ├── Train.java            # Train entity
+│   ├── Ticket.java           # Ticket entity
+│   ├── UserService.java      # Handles user registration & login
+│   ├── BookingService.java   # Handles booking, search & cancellations
+│   └── (other helper classes)
 ├── README.md
 └── .gitignore
-
 
 ---
 
