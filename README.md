@@ -1,13 +1,13 @@
-# 🚆 BookMyTrain - IRCTC Console App
+🚆 BookMyTrain - IRCTC Console App
 
-A **Java console-based railway booking system** simulating IRCTC features like user registration, login, train search, ticket booking, and cancellations. Ideal for learning **backend development** and OOP concepts in Java.
+A simple Java **console-based railway booking system** that simulates IRCTC features such as user registration, login, train search, ticket booking, and cancellations.
 
 ---
 
-## ✨ Features
+✨ Features
 - 👤 User Registration & Login  
-- 🔍 Search Trains by Source & Destination  
-- 🎟 Book Tickets with Seat Availability Check  
+- 🔍 Search Trains between source & destination  
+- 🎟 Book Tickets with seat availability check  
 - 📄 View My Tickets  
 - ❌ Cancel Tickets  
 - 🚂 View All Trains  
@@ -15,50 +15,47 @@ A **Java console-based railway booking system** simulating IRCTC features like u
 
 ---
 
-## 🛠 Tech Stack
-- **Language:** Java (JDK 23)  
-- **IDE:** IntelliJ IDEA (or any Java IDE)  
-- **Concepts:** OOP, Collections API, Scanner Input  
-- **Data Handling:** Lists, Maps  
+🛠 Tech Stack
+- Java (JDK 23)
+- IntelliJ IDEA (or any IDE)
+- OOP Concepts (Encapsulation, Inheritance, Polymorphism)
+- Collections API (Lists, Maps)
+- Scanner-based Input
 
 ---
-
-## 📂 Project Structure
-BookMyTrain/
-├── src/
-│   ├── IRCTCAPP.java         # Main application (entry point)
-│   ├── User.java             # User entity
-│   ├── Train.java            # Train entity
-│   ├── Ticket.java           # Ticket entity
-│   ├── UserService.java      # Handles user registration & login
-│   ├── BookingService.java   # Handles booking, search & cancellations
-│   └── (other helper classes)
-├── README.md
-└── .gitignore
-
----
-
-## ▶️ How to Run
-1. Clone the repository:
-```bash
-git clone https://github.com/theyashshelar/BookMyTrain.git
+▶️ How to Run
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/theyashshelar/BookMyTrain.git
 
 2. Open the project in IntelliJ IDEA or any Java IDE.
 
 3. Run IRCTCAPP.java from the src folder.
 
-📸 Demo (Sample Console Output):
+---
 
+📸 Demo (Console Output):
 ------ Welcome to IRCTC APP ------
 1. Register
 2. Login
 3. Exit
-Enter Your Choice: 1
+Enter Your Choice: 
+1
 Enter Username: yash123
 Enter Password: 123
 Enter Full Name: yash
 Enter Contact: 1234567
 Registration Successful
+
+------ Welcome to IRCTC APP ------
+1. Register
+2. Login
+3. Exit
+Enter Your Choice: 
+2
+Enter Username: yash123
+Enter Password: 123
+Welcome : yash!
 
 ------ User Menu ------
 1. Search Trains
@@ -68,18 +65,31 @@ Registration Successful
 5. View All Trains
 6. Logout
 
-Booking Successful!
-ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
+- Booking Successful!
+- ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
 
-🚀 Future Improvements
+- If the user books another ticket:
+- Booking Successful!
+- ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
-Add Database support (MySQL/PostgreSQL)
+- And when the user chooses View My Tickets, the console shows all booked tickets:
+= Your Tickets:
+= ticketId: 1 | Train: Rajdhani Express | Route: Delhi -> Nagpur | Seats: 2 | Booked By: yash
+= ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
-Convert to a Spring Boot REST API
+------ Cancel Tickets ------
+- Ticket canceled successfully: ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
-Create a React Frontend for real-time train booking
+---
+
+🚀 Future Improvements:
+
+- Add Database support (MySQL/PostgreSQL)
+- Convert to a Spring Boot REST API
+- Create a React Frontend for real-time train booking
+
+---
 
 👨‍💻 Developed by Yash Shelar
 📧 Email: yashshelar006@gmail.com
-
 🔗 GitHub: theyashshelar
