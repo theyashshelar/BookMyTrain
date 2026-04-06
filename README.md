@@ -101,6 +101,13 @@ When a ticket is canceled, for example ticketId: 2:
 Ticket canceled successfully: ticketId: 2 | Train: Shatabdi Express | Route: Mumbai -> Pune | Seats: 1 | Booked By: yash
 
 ```
+
+## 📸 Application Preview
+
+![Console Output](assets/console.png)
+
+---
+
 🚀 Future Improvements:
 
 - Add Database support (MySQL/PostgreSQL)
